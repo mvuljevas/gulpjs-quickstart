@@ -1,0 +1,41 @@
+{
+  "name": "gulpjs-quickstart",
+  "version": "0.4.0",
+  "description": "Gulp 4 Quick Start.",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "gulp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvuljevas/gulpjs-quickstart.git"
+  },
+  "keywords": [
+    "gulp",
+    "quickstart"
+  ],
+  "author": "Mauricio Vuljevas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvuljevas/gulpjs-quickstart/issues"
+  },
+  "homepage": "https://github.com/mvuljevas/gulpjs-quickstart#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.15",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "sass": "^1.58.0"
+  }
+}
